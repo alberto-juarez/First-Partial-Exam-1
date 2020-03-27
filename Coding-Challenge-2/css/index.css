@@ -5,3 +5,44 @@ div{
     padding: 5px;
 }
 
+/* normal */
+@@media (min-width:960px) {
+
+  .container {
+    display: flex;
+  }
+  .container.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navigation{
+    display: flex;
+    flex-direction: row;
+  }
+  .side{
+    display: flex;
+    flex-direction: column;
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* tablets */
+@@media (min-width:640px) and (max-width:959px) {
+
+}
+
+/* celulares */
+@@media (min-width:320px) and (max-width:639px) {
+  .container {
+    display: flex;
+  }
+  .navigation{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
