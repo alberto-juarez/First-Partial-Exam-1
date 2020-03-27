@@ -7,6 +7,10 @@ div{
 
 /* normal */
 @@media (min-width:960px) {
+  .heading {
+        display: flex;
+        justify-content: space-around;
+    }
 
   .container {
     display: flex;
@@ -43,7 +47,7 @@ div{
     height: 50%;
   }
   .content{
-    
+
   }
 
 }
@@ -65,5 +69,15 @@ div{
   .main {
     display: none;
   }
+  .side {
+    display: none;
+  }
+  .main {
+    display: none;
+  }
+  .heading {
+    display: none;
+  }
+
 
 }
