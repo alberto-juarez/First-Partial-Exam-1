@@ -32,17 +32,38 @@ div{
 
 /* tablets */
 @@media (min-width:640px) and (max-width:959px) {
+  .navigation{
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-box{
+    width: 25%;
+  }
+  .main-box{
+    height: 50%;
+  }
+  .content{
+    
+  }
 
 }
 
 /* celulares */
 @@media (min-width:320px) and (max-width:639px) {
-  .container {
+  .container{
     display: flex;
+    flex-direction: row;
   }
   .navigation{
     display: flex;
-    flex-wrap: wrap;
+    align-items: stretch;
+
+  }
+  .nav-box{
+    width: 50%;
+  }
+  .main {
+    display: none;
   }
 
 }
